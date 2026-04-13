@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import streamlit; import plotly; import pandas; print\\('streamlit', streamlit.__version__\\); print\\('plotly', plotly.__version__\\); print\\('pandas', pandas.__version__\\)\")",
+      "Bash(python -c \"import pandas; print\\('pandas', pandas.__version__\\)\")",
+      "Bash(python -c \"import plotly; print\\('plotly', plotly.__version__\\)\")",
+      "Bash(python -m py_compile \"c:/Users/geovani.lima/Downloads/JornadaDados/projetos-claude/WorldCups/dashboard.py\")",
+      "Bash(streamlit run:*)",
+      "Bash(pip install:*)",
+      "Bash(rm -rf \"C:/Users/geovani.lima/.pyenv/pyenv-win/versions/3.14.2/Lib/site-packages/~umpy.libs\" \"C:/Users/geovani.lima/.pyenv/pyenv-win/versions/3.14.2/Lib/site-packages/~umpy\" \"C:/Users/geovani.lima/.pyenv/pyenv-win/versions/3.14.2/Lib/site-packages/~andas\")",
+      "Bash(python -c \"import numpy; import pandas; print\\('numpy', numpy.__version__\\); print\\('pandas', pandas.__version__\\)\")",
+      "Bash(where python:*)",
+      "Bash(pyenv versions:*)",
+      "Bash(\"C:/Users/geovani.lima/AppData/Local/Programs/Python/Python314/python.exe\" -c \"import numpy; import pandas; print\\('OK', numpy.__version__, pandas.__version__\\)\")",
+      "Bash(\"C:/Users/geovani.lima/AppData/Local/Programs/Python/Python314/python.exe\" -m pip list)",
+      "Bash(\"C:/Users/geovani.lima/AppData/Local/Programs/Python/Python314/python.exe\" -m pip install plotly)",
+      "Bash(\"C:/Users/geovani.lima/AppData/Local/Programs/Python/Python314/python.exe\" -m streamlit run dashboard.py)"
+    ]
+  }
+}
